@@ -7,6 +7,14 @@
   flex-flow: column wrap;
   display: flex;
   overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.home h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 .textoHome {
   color: white;
@@ -17,7 +25,8 @@
   justify-content: center;
   margin: 0;
 }
-.textoHome p {
+.textoHome {
+  display: flex;
   margin: 0;
 }
 .textoHome p:nth-child(1) {
