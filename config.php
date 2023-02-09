@@ -1,7 +1,7 @@
 <?php
 
 define("DIR_FS_SISTEMA", __DIR__ . "/");
-define("DIR_WS_SISTEMA", "http://localhost/VJD-Site/");
+define("DIR_WS_SISTEMA", "https://qpservicos.com");
 
 define("DIR_FS_INCLUDES", DIR_FS_SISTEMA . "lib/");
 define('DIR_FS_CLASSES', DIR_FS_SISTEMA . '/classes/');
