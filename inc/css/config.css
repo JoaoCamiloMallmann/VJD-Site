@@ -1,0 +1,24 @@
+:root {
+  --Principal: #101728;
+  --Rosa: #ee3c78;
+  --Roxo: #9340ff;
+}
+
+@font-face {
+  font-family: OpenSauceOne;
+  src: url(../fonts/OpenSauceOne-Regular.ttf) format("opentype");
+}
+@font-face {
+  font-family: OpenSauceOne;
+  font-weight: bold;
+  src: url(../fonts/OpenSauceOne-Bold.ttf) format("opentype");
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}

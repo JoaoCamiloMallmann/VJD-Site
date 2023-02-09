@@ -1,0 +1,135 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/FundoHome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-flow: column wrap;
+  display: flex;
+  overflow-x: hidden;
+}
+.textoHome {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: calc(2vh + 3vw);
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  margin: 0;
+}
+.textoHome p {
+  margin: 0;
+}
+.textoHome p:nth-child(1) {
+  animation: TextHomeEntrada 1.7s forwards;
+}
+.textoHome p:nth-child(2) {
+  animation: TextHomeEntrada 1.8s forwards;
+}
+.textoHome p:nth-child(3) {
+  animation: TextHomeEntrada 2.15s forwards;
+}
+
+.secao-logo {
+  padding-left: 3rem;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column wrap;
+}
+.LogoPrincipal {
+  width: 50%;
+}
+.secao-dados {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-around;
+}
+.secao-dados img {
+  width: 65%;
+  align-self: center;
+}
+.secao-seta {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 10%;
+  height: 100%;
+}
+.BotoesDaHome {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#homeBotao {
+  font-size: calc(1vh + 10px);
+  font-weight: bolder;
+  background-image: linear-gradient(to right, var(--Roxo), var(--Rosa));
+  padding: 1.2rem 1rem;
+  border-radius: 50px;
+  border: none;
+  height: auto;
+  transition: 0.3s;
+  width: 30%;
+}
+
+#homeBotao:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.secao-seta img {
+  cursor: pointer;
+  height: 10vh;
+  transition: 0.3s;
+}
+.secao-seta img:hover {
+  transition: 0.5s;
+  transform: translateX(-1rem);
+}
+
+.secao-sobre-nos {
+  width: 100%;
+  height: 100%;
+  z-index: 255;
+  background-image: url(../img/FundoSobreNos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secao-hide {
+  transform: translateX(100%);
+  transition: 1s;
+  display: none;
+}
+
+.secao-show {
+  position: relative;
+  animation: QuemSomosEntraa 1s forwards;
+}
+.textoSobreNos {
+  padding: 10vh;
+  width: 100%;
+  height: 100%;
+}
+.textoSobreNos h3 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: calc(2.2vh + 2.2vw);
+  text-align: center;
+  font-weight: bolder;
+}
+.textoSobreNos h3 span {
+  color: var(--Rosa);
+}
+.textoSobreNos p {
+  padding: 0 10rem;
+  margin-top: 2.5rem;
+  color: white;
+  font-size: calc(1vh + 1vw);
+  text-align: justify;
+}
+.sobreNosSeta {
+  width: 15%;
+}

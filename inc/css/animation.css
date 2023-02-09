@@ -1,0 +1,21 @@
+@keyframes TextHomeEntrada {
+  0% {
+    transform: translateX(-70vh);
+  }
+  100% {
+    transform: translateX(0);
+
+  }
+}
+
+
+@keyframes QuemSomosEntraa {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+
+  }
+}
+

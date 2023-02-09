@@ -1,0 +1,25 @@
+ {
+    "name": "william/cadastro",
+    "description": "Praticando os cursos",
+    "type": "project",
+    "require": {
+        "adodb/adodb-php" : "*"
+    },
+    "autoload":{
+        "files": [
+            "config.php"
+        ],
+        "psr-4": {
+            "Site\\": "Classes"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Tests\\" : "tests/"
+        }
+    }
+
+}
