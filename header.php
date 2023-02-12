@@ -15,7 +15,7 @@ require_once 'vendor/autoload.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
-    <title>VJD</title>
+    <title>QP Serviços</title>
 
     <link rel="stylesheet" href="<?= DIR_WS_SISTEMA_INC . '/css/config.css' ?>">
 
@@ -32,9 +32,6 @@ require_once 'vendor/autoload.php';
     <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . '/js/jquery.js' ?>"></script>
     <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . '/js/jquery.mask.min.js' ?>"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js"></script>
-
 
     <!---- AOS --->
     <link rel="stylesheet" href="<?= DIR_WS_SISTEMA_INC . '/aos-master/dist/aos.css' ?>">
@@ -49,7 +46,7 @@ require_once 'vendor/autoload.php';
     <!---- Uikit --->
     <link rel="stylesheet" href=" <?= DIR_WS_SISTEMA_INC . '/Uikit/css/uikit.min.css' ?>" />
     <link rel="stylesheet" href=" <?= DIR_WS_SISTEMA_INC . '/Uikit/css/uikit-rtl.min.css' ?>" />
-    <script src="<?= DIR_WS_SISTEMA_INC . 'Uikit/js/uikit.min.js' ?>"></script>
+    <script src="<?= DIR_WS_SISTEMA_INC . '/Uikit/js/uikit.min.js' ?>"></script>
     <script src="<?= DIR_WS_SISTEMA_INC . '/Uikit/js/uikit-icons.min.js' ?> "></script>
 
     <!---- JS --->
