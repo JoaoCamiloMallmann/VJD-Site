@@ -20,12 +20,12 @@ require_once 'vendor/autoload.php';
     <link rel="stylesheet" href="<?= DIR_WS_SISTEMA_INC . '/css/config.css' ?>">
 
     <!---- Bootstrap --->
-    <link rel="stylesheet" type="text/css" href="<?= DIR_WS_SISTEMA_INC . 'bootstrap/css/bootstrap.min.css' ?>">
-    <script src="<?= DIR_WS_SISTEMA_INC . 'bootstrap/js/bootstrap.min.js' ?>"></script>
+    <link rel="stylesheet" type="text/css" href="<?= DIR_WS_SISTEMA_INC . '/bootstrap/css/bootstrap.min.css' ?>">
+    <script src="<?= DIR_WS_SISTEMA_INC . '/bootstrap/js/bootstrap.min.js' ?>"></script>
 
     <!---- Fontawesome --->
-    <link rel="stylesheet" href="<?= DIR_WS_SISTEMA_INC . 'fontawesome/css/all.min.css' ?>">
-    <script src="<?= DIR_WS_SISTEMA_INC . 'fontawesome/js/all.min.js' ?>"></script>
+    <link rel="stylesheet" href="<?= DIR_WS_SISTEMA_INC . '/fontawesome/css/all.min.css' ?>">
+    <script src="<?= DIR_WS_SISTEMA_INC . '/fontawesome/js/all.min.js' ?>"></script>
 
 
     <!---- Jquery --->
