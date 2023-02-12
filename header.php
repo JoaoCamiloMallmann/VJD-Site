@@ -29,8 +29,8 @@ require_once 'vendor/autoload.php';
 
 
     <!---- Jquery --->
-    <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . 'js/jquery.js' ?>"></script>
-    <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . 'js/jquery.mask.min.js' ?>"></script>
+    <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . '/js/jquery.js' ?>"></script>
+    <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . '/js/jquery.mask.min.js' ?>"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js"></script>
@@ -38,7 +38,7 @@ require_once 'vendor/autoload.php';
 
     <!---- AOS --->
     <link rel="stylesheet" href="<?= DIR_WS_SISTEMA_INC . '/aos-master/dist/aos.css' ?>">
-    <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . 'aos-master/dist/aos.js' ?>"></script>
+    <script type="text/javascript" src="<?= DIR_WS_SISTEMA_INC . '/aos-master/dist/aos.js' ?>"></script>
 
     <!---- CSS --->
     <link rel="stylesheet" href="<?= DIR_WS_SISTEMA_INC . '/css/index.css' ?>">
