@@ -40,6 +40,7 @@
 }
 .LogoPrincipal {
   width: 50%;
+  animation: QuemSomosEntraa 3s forwards;
 }
 .secao-dados {
   width: 45%;
@@ -131,5 +132,10 @@
   text-align: justify;
 }
 .sobreNosSeta {
+  display: flex;
+  justify-content: center;
+}
+.sobreNosSeta img {
   width: 15%;
+  transform: rotate(270deg);
 }
